@@ -4,7 +4,7 @@ export const Loader = () => (
   <ThreeDots
     height="100"
     width="100"
-    radius="9"
+    // radius="9"
     color="#59c3de"
     ariaLabel="three-dots-loading"
     wrapperStyle={{
