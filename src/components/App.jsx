@@ -26,7 +26,6 @@ export class App extends Component {
 
       PickAPI.fetchPictures(this.state.query, this.state.page)
         .then(images => this.setState({ images: images.hits }))
-
         .catch(error => this.setState({ error }))
         .finally(() => {
           this.setState({ loading: false });
